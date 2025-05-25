@@ -1,0 +1,175 @@
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-image: url("../img/full3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg"); /*"../img/abstract-background-with-red-lines.jpg")*/
+    background-size:cover;
+    height: 100%;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+
+.navegador{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    /*background-image: url("../img/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg");*/
+    background-image: url("../img/navredscale.png");
+    background-size: cover;
+    justify-content: flex-start;
+}
+    .logo-container{
+        display: flex;
+        height: 100px;
+        width: 300px;
+        margin: 0%;
+        background-color: black;
+    }
+        .logo-icon{
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-bottom: 5px;
+            height: 75px;
+            aspect-ratio: auto 60/90;
+        }
+        .logo-text{
+        color: whitesmoke; 
+        font-size: 18px ;
+        font-family: "algerian";
+        align-content: center;
+        text-decoration: none;
+
+        }
+    .nav-container{
+        display: flex;
+        margin-left: 30px;
+    }
+        .nav-item{
+            margin: 20px;
+            color: whitesmoke;
+            font-family: "algerian";
+            align-content: center;
+            text-decoration: none;
+
+        }
+label{
+    
+    color: whitesmoke;
+}
+main{
+    width: 100vw;
+    margin-left: 0px;
+}
+
+.indeximg_container{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+.indeximg{
+    
+    width: 100vw;
+    height: 120vh;
+}
+h2{
+    /**/
+    font-size: 1em;
+}
+h3{
+    margin-left: 30px;
+    color: whitesmoke;
+}
+.main-container{
+    display: grid;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    /*grid-template-rows: 400px,400px, 400px;*/
+    grid-template-rows:repeat(auto-fill, minmax(300px, 1fr));
+    
+}
+.product-container{
+    display: flex;
+    width: 160px;
+    height: 210px;
+    background-color: rgb(50, 40, 40);
+    flex-direction: column   ;
+    grid-column: auto;
+    justify-self: center;
+
+}
+.producto{
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    
+}
+.product-text{
+    text-align: center;
+    font-size: auto;
+    font-size: 1em ;
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+    
+}
+
+form{
+
+    border-radius: 10px;
+    padding: 5px ;
+    margin :50px auto;
+    width: 400px;
+    background-color: rgb(50, 40, 40)
+    
+}
+.form-field{
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 5px ;
+    
+}
+textarea{
+    height: 4em;
+    border: 0;
+    width: 390px;
+}
+input{
+    border: 0;
+    width: 390px;
+}
+.center-content{
+    text-align: center;
+}
+.btn-form{
+    margin: 0 auto;
+    padding: 0%;
+    width: 390px;
+    height: 2em;
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+}
+
+footer{
+    display: grid;
+    background-image: url(../img/navredscale.png);
+    margin-bottom: 0px ;
+    grid-template-columns: 25%, 25%,25%,25%;
+
+}
+.redes{
+    display: flex;
+    grid-column: 4/4;
+    justify-content: center;
+    align-items: center
+}
+.redesicon{
+    padding: 10px;
+    ;
+    font-size: 30px;
+    color: whitesmoke;
+}
