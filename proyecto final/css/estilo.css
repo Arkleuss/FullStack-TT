@@ -2,7 +2,8 @@ body{
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
-    background-image: url("../img/full3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg"); /*"../img/abstract-background-with-red-lines.jpg")*/
+    height: 100vh;
+    background-image: url("../img/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg"); /*"../img/abstract-background-with-red-lines.jpg")*/
     background-size:cover;
     height: 100%;
 }
@@ -46,6 +47,7 @@ header{
     .nav-container{
         display: flex;
         margin-left: 30px;
+        width: 100%;
     }
         .nav-item{
             margin: 20px;
@@ -178,3 +180,8 @@ footer{
     font-size: 30px;
     color: whitesmoke;
 }
+@media (max-aspect-ratio: 9/16) {
+    body{
+        background-image: url("../img/verticalbackground.jpg"); /*"../img/abstract-background-with-red-lines.jpg")*/
+        background-size:cover;
+    }}
